@@ -1,0 +1,112 @@
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #0f0c29, #302b63);
+}
+
+/** Glavni naslov **/
+h1, h3 {
+  color: white;
+  font-family: DIN Neuzeit Grotesk, Avenir Light;
+  text-align: center;
+  font-size: 520%;
+  text-shadow: 10px 10px 5px rgb(50, 48, 48);
+  animation: fadeInAnimation ease 4s;
+}
+
+h2 {
+  color: white;
+  font-family: DIN Neuzeit Grotesk, Avenir Light;
+  text-align: center;
+  margin-top: -3%;
+  margin-left: 15%;
+  font-size: 120%;
+  animation: fadeInAnimation ease 4s;
+}
+
+/* navigacijska vrstica */
+.topnav {
+  overflow: hidden;
+}
+
+/* Linki v nav vrstici */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  font-family: DIN Neuzeit Grotesk, Avenir Light;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Linki v nav vrstici spremninjanje barve */
+.topnav a:hover {
+  color: wheat;
+}
+
+/* Aktivna stran */
+.topnav a.active {
+  color: #99ccff;
+}
+
+.BG {
+  width: 100%;
+  margin-top: 7%;
+  opacity: 100%;
+}
+
+footer {
+  background-color: white;
+  margin-top: -10%;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  animation: fadeInAnimation ease 4s;
+}
+
+li {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  animation: fadeInAnimation ease 4s;
+}
+
+
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.item-description {
+  text-align: center;
+}
+
+.item-description h3 {
+  font-size: 24px;
+}
+
+.item-description p {
+  font-size: 16px;
+}

@@ -1,0 +1,99 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #0f0c29, #302b63);
+}
+
+h1, h3 {
+  color: white;
+  font-family: DIN Neuzeit Grotesk, Avenir Light;
+  text-align: center;
+  font-size: 520%;
+  text-shadow: 10px 10px 5px rgb(50, 48, 48);
+  animation: fadeInAnimation ease 4s;
+}
+
+h2 {
+  color: white;
+  font-family: DIN Neuzeit Grotesk, Avenir Light;
+  text-align: center;
+  margin-top: -3%;
+  font-size: 120%;
+  animation: fadeInAnimation ease 4s;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  font-family: DIN Neuzeit Grotesk, Avenir Light;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: wheat;
+}
+
+.topnav a.active {
+  color: #99ccff;
+}
+
+.BG {
+  width: 100%;
+  margin-top: 7%;
+  opacity: 100%;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  animation: fadeInAnimation ease 4s;
+}
+
+li {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  animation: fadeInAnimation ease 4s;
+}
+
+.container {
+  margin-top: 4rem;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form .form-control {
+  border-radius: 0;
+}
+
+.contact-form .btn-primary {
+  border-radius: 0;
+}
+ label{
+  color: white;
+  font-size: 20px;
+ }
